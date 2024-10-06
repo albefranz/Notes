@@ -30,6 +30,8 @@ Partial Class Form1
         btnParole = New Button()
         btnMemo = New Button()
         btnCose = New Button()
+        btnMusica = New Button()
+        btnVB_Prog = New Button()
         SuspendLayout()
         ' 
         ' btnLink
@@ -91,7 +93,7 @@ Partial Class Form1
         ' 
         btnMemo.BackColor = Color.Aquamarine
         btnMemo.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnMemo.Location = New Point(172, 30)
+        btnMemo.Location = New Point(172, 110)
         btnMemo.Name = "btnMemo"
         btnMemo.Size = New Size(112, 34)
         btnMemo.TabIndex = 0
@@ -109,17 +111,41 @@ Partial Class Form1
         btnCose.Text = "Cose"
         btnCose.UseVisualStyleBackColor = False
         ' 
+        ' btnMusica
+        ' 
+        btnMusica.BackColor = Color.YellowGreen
+        btnMusica.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnMusica.Location = New Point(172, 30)
+        btnMusica.Name = "btnMusica"
+        btnMusica.Size = New Size(112, 34)
+        btnMusica.TabIndex = 0
+        btnMusica.Text = "Musica"
+        btnMusica.UseVisualStyleBackColor = False
+        ' 
+        ' btnVB_Prog
+        ' 
+        btnVB_Prog.BackColor = Color.YellowGreen
+        btnVB_Prog.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnVB_Prog.Location = New Point(172, 70)
+        btnVB_Prog.Name = "btnVB_Prog"
+        btnVB_Prog.Size = New Size(112, 34)
+        btnVB_Prog.TabIndex = 0
+        btnVB_Prog.Text = "VB_Prog"
+        btnVB_Prog.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.SteelBlue
-        ClientSize = New Size(360, 443)
+        ClientSize = New Size(360, 325)
         Controls.Add(btnMemo)
         Controls.Add(btnCose)
         Controls.Add(btnParole)
         Controls.Add(btnSNicolò)
         Controls.Add(btnPosti)
+        Controls.Add(btnMusica)
+        Controls.Add(btnVB_Prog)
         Controls.Add(btnDo_It)
         Controls.Add(btnLink)
         Icon = CType(resources.GetObject("$this.Icon"), Icon)
@@ -135,5 +161,7 @@ Partial Class Form1
     Friend WithEvents btnParole As Button
     Friend WithEvents btnMemo As Button
     Friend WithEvents btnCose As Button
+    Friend WithEvents btnMusica As Button
+    Friend WithEvents btnVB_Prog As Button
 
 End Class

@@ -18,9 +18,10 @@
                 FileClose()
             End If
         Next
+        btnEveryDay.PerformClick()
     End Sub
 
-    Private Sub btn_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnLink.Click, btnDo_It.Click, btnPosti.Click, btnSNicolò.Click, btnParole.Click, btnMemo.Click, btnCose.Click, btnMusica.Click, btnVB_Prog.Click
+    Private Sub btn_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnLink.Click, btnDo_It.Click, btnPosti.Click, btnSNicolò.Click, btnParole.Click, btnMemo.Click, btnCose.Click, btnMusica.Click, btnVB_Prog.Click, btnEveryDay.Click
         frmNota.Close()
         'Trova il Button cliccato nella Form1
         Dim A = CType(sender, Button)

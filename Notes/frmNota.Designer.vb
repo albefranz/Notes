@@ -39,7 +39,7 @@ Partial Class frmNota
         txtNota.Multiline = True
         txtNota.Name = "txtNota"
         txtNota.ScrollBars = ScrollBars.Vertical
-        txtNota.Size = New Size(451, 357)
+        txtNota.Size = New Size(828, 486)
         txtNota.TabIndex = 0
         ' 
         ' pnlComandi
@@ -50,7 +50,7 @@ Partial Class frmNota
         pnlComandi.Dock = DockStyle.Top
         pnlComandi.Location = New Point(0, 0)
         pnlComandi.Name = "pnlComandi"
-        pnlComandi.Size = New Size(451, 76)
+        pnlComandi.Size = New Size(828, 76)
         pnlComandi.TabIndex = 1
         ' 
         ' lbl1
@@ -67,7 +67,7 @@ Partial Class frmNota
         btnSalva.Anchor = AnchorStyles.None
         btnSalva.BackColor = Color.DarkTurquoise
         btnSalva.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        btnSalva.Location = New Point(145, 12)
+        btnSalva.Location = New Point(334, 12)
         btnSalva.Name = "btnSalva"
         btnSalva.Size = New Size(152, 47)
         btnSalva.TabIndex = 0
@@ -81,14 +81,14 @@ Partial Class frmNota
         pnlTesto.Dock = DockStyle.Fill
         pnlTesto.Location = New Point(0, 76)
         pnlTesto.Name = "pnlTesto"
-        pnlTesto.Size = New Size(451, 357)
+        pnlTesto.Size = New Size(828, 486)
         pnlTesto.TabIndex = 2
         ' 
         ' frmNota
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(451, 433)
+        ClientSize = New Size(828, 562)
         Controls.Add(pnlTesto)
         Controls.Add(pnlComandi)
         Name = "frmNota"

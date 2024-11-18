@@ -32,6 +32,7 @@ Partial Class Form1
         btnCose = New Button()
         btnMusica = New Button()
         btnVB_Prog = New Button()
+        btnEveryDay = New Button()
         SuspendLayout()
         ' 
         ' btnLink
@@ -91,7 +92,7 @@ Partial Class Form1
         ' 
         ' btnMemo
         ' 
-        btnMemo.BackColor = Color.Aquamarine
+        btnMemo.BackColor = Color.YellowGreen
         btnMemo.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
         btnMemo.Location = New Point(172, 110)
         btnMemo.Name = "btnMemo"
@@ -133,12 +134,24 @@ Partial Class Form1
         btnVB_Prog.Text = "VB_Prog"
         btnVB_Prog.UseVisualStyleBackColor = False
         ' 
+        ' btnEveryDay
+        ' 
+        btnEveryDay.BackColor = Color.Aquamarine
+        btnEveryDay.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnEveryDay.Location = New Point(172, 150)
+        btnEveryDay.Name = "btnEveryDay"
+        btnEveryDay.Size = New Size(112, 34)
+        btnEveryDay.TabIndex = 0
+        btnEveryDay.Text = "EveryDay"
+        btnEveryDay.UseVisualStyleBackColor = False
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(10F, 25F)
         AutoScaleMode = AutoScaleMode.Font
         BackColor = Color.SteelBlue
         ClientSize = New Size(360, 325)
+        Controls.Add(btnEveryDay)
         Controls.Add(btnMemo)
         Controls.Add(btnCose)
         Controls.Add(btnParole)
@@ -163,5 +176,6 @@ Partial Class Form1
     Friend WithEvents btnCose As Button
     Friend WithEvents btnMusica As Button
     Friend WithEvents btnVB_Prog As Button
+    Friend WithEvents btnEveryDay As Button
 
 End Class

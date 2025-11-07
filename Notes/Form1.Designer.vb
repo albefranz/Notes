@@ -34,14 +34,14 @@ Partial Class Form1
         btnVB_Prog = New Button()
         btnEveryDay = New Button()
         btnMedie = New Button()
-        Button1 = New Button()
-        Button2 = New Button()
+        btnFilm = New Button()
+        btnLibri = New Button()
         SuspendLayout()
         ' 
         ' btnLink
         ' 
         btnLink.BackColor = Color.YellowGreen
-        btnLink.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnLink.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnLink.Location = New Point(172, 230)
         btnLink.Name = "btnLink"
         btnLink.Size = New Size(112, 34)
@@ -52,7 +52,7 @@ Partial Class Form1
         ' btnDo_It
         ' 
         btnDo_It.BackColor = Color.YellowGreen
-        btnDo_It.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnDo_It.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnDo_It.Location = New Point(172, 150)
         btnDo_It.Name = "btnDo_It"
         btnDo_It.Size = New Size(112, 34)
@@ -63,7 +63,7 @@ Partial Class Form1
         ' btnPosti
         ' 
         btnPosti.BackColor = Color.YellowGreen
-        btnPosti.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnPosti.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnPosti.Location = New Point(21, 230)
         btnPosti.Name = "btnPosti"
         btnPosti.Size = New Size(112, 34)
@@ -74,7 +74,7 @@ Partial Class Form1
         ' btnSNicolò
         ' 
         btnSNicolò.BackColor = Color.YellowGreen
-        btnSNicolò.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnSNicolò.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnSNicolò.Location = New Point(21, 70)
         btnSNicolò.Name = "btnSNicolò"
         btnSNicolò.Size = New Size(112, 34)
@@ -85,7 +85,7 @@ Partial Class Form1
         ' btnParole
         ' 
         btnParole.BackColor = Color.YellowGreen
-        btnParole.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnParole.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnParole.Location = New Point(172, 70)
         btnParole.Name = "btnParole"
         btnParole.Size = New Size(112, 34)
@@ -96,7 +96,7 @@ Partial Class Form1
         ' btnMemo
         ' 
         btnMemo.BackColor = Color.YellowGreen
-        btnMemo.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnMemo.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnMemo.Location = New Point(172, 110)
         btnMemo.Name = "btnMemo"
         btnMemo.Size = New Size(112, 34)
@@ -107,7 +107,7 @@ Partial Class Form1
         ' btnCose
         ' 
         btnCose.BackColor = Color.YellowGreen
-        btnCose.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnCose.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnCose.Location = New Point(21, 270)
         btnCose.Name = "btnCose"
         btnCose.Size = New Size(112, 34)
@@ -118,7 +118,7 @@ Partial Class Form1
         ' btnMusica
         ' 
         btnMusica.BackColor = Color.YellowGreen
-        btnMusica.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnMusica.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnMusica.Location = New Point(21, 190)
         btnMusica.Name = "btnMusica"
         btnMusica.Size = New Size(112, 34)
@@ -129,7 +129,7 @@ Partial Class Form1
         ' btnVB_Prog
         ' 
         btnVB_Prog.BackColor = Color.YellowGreen
-        btnVB_Prog.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnVB_Prog.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnVB_Prog.Location = New Point(172, 190)
         btnVB_Prog.Name = "btnVB_Prog"
         btnVB_Prog.Size = New Size(112, 34)
@@ -140,7 +140,7 @@ Partial Class Form1
         ' btnEveryDay
         ' 
         btnEveryDay.BackColor = Color.Aquamarine
-        btnEveryDay.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnEveryDay.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnEveryDay.Location = New Point(172, 30)
         btnEveryDay.Name = "btnEveryDay"
         btnEveryDay.Size = New Size(112, 34)
@@ -151,7 +151,7 @@ Partial Class Form1
         ' btnMedie
         ' 
         btnMedie.BackColor = Color.YellowGreen
-        btnMedie.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
+        btnMedie.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
         btnMedie.Location = New Point(21, 30)
         btnMedie.Name = "btnMedie"
         btnMedie.Size = New Size(112, 34)
@@ -159,27 +159,27 @@ Partial Class Form1
         btnMedie.Text = "Medie"
         btnMedie.UseVisualStyleBackColor = False
         ' 
-        ' Button1
+        ' btnFilm
         ' 
-        Button1.BackColor = Color.YellowGreen
-        Button1.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Button1.Location = New Point(21, 110)
-        Button1.Name = "Button1"
-        Button1.Size = New Size(112, 34)
-        Button1.TabIndex = 0
-        Button1.Text = "Film"
-        Button1.UseVisualStyleBackColor = False
+        btnFilm.BackColor = Color.YellowGreen
+        btnFilm.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        btnFilm.Location = New Point(21, 110)
+        btnFilm.Name = "btnFilm"
+        btnFilm.Size = New Size(112, 34)
+        btnFilm.TabIndex = 0
+        btnFilm.Text = "Film"
+        btnFilm.UseVisualStyleBackColor = False
         ' 
-        ' Button2
+        ' btnLibri
         ' 
-        Button2.BackColor = Color.YellowGreen
-        Button2.Font = New Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point)
-        Button2.Location = New Point(21, 150)
-        Button2.Name = "Button2"
-        Button2.Size = New Size(112, 34)
-        Button2.TabIndex = 0
-        Button2.Text = "Libri"
-        Button2.UseVisualStyleBackColor = False
+        btnLibri.BackColor = Color.YellowGreen
+        btnLibri.Font = New Font("Segoe UI", 9F, FontStyle.Bold)
+        btnLibri.Location = New Point(21, 150)
+        btnLibri.Name = "btnLibri"
+        btnLibri.Size = New Size(112, 34)
+        btnLibri.TabIndex = 0
+        btnLibri.Text = "Libri"
+        btnLibri.UseVisualStyleBackColor = False
         ' 
         ' Form1
         ' 
@@ -189,8 +189,8 @@ Partial Class Form1
         ClientSize = New Size(360, 319)
         Controls.Add(btnEveryDay)
         Controls.Add(btnMemo)
-        Controls.Add(Button2)
-        Controls.Add(Button1)
+        Controls.Add(btnLibri)
+        Controls.Add(btnFilm)
         Controls.Add(btnMedie)
         Controls.Add(btnCose)
         Controls.Add(btnParole)
@@ -217,7 +217,7 @@ Partial Class Form1
     Friend WithEvents btnVB_Prog As Button
     Friend WithEvents btnEveryDay As Button
     Friend WithEvents btnMedie As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnFilm As Button
+    Friend WithEvents btnLibri As Button
 
 End Class

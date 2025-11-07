@@ -21,7 +21,7 @@
         btnEveryDay.PerformClick()
     End Sub
 
-    Private Sub btn_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnLink.Click, btnDo_It.Click, btnPosti.Click, btnSNicolò.Click, btnParole.Click, btnMemo.Click, btnCose.Click, btnMusica.Click, btnVB_Prog.Click, btnEveryDay.Click, Button1.Click, Button2.Click
+    Private Sub btn_Click(ByVal sender As Object, ByVal e As EventArgs) Handles btnLink.Click, btnDo_It.Click, btnPosti.Click, btnSNicolò.Click, btnParole.Click, btnMemo.Click, btnCose.Click, btnMusica.Click, btnVB_Prog.Click, btnEveryDay.Click, btnMedie.Click, btnFilm.Click, btnLibri.Click
         frmNota.Close()
         'Trova il Button cliccato nella Form1
         Dim A = CType(sender, Button)
@@ -32,7 +32,9 @@
         'Legge il testo del file e lo mette in Testo
         Testo = My.Computer.FileSystem.ReadAllText(Percorso & NomeNota & ".txt")
         'Leva le virgolette
-        Testo = Mid(Testo, 2, Len(Testo) - 4)
+        If Testo <> "" Then
+            Testo = Mid(Testo, 2, Len(Testo) - 4)
+        End If
         'Mette il nome del file desiderato nella Label della frmNota
         frmNota.lbl1.Text = NomeNota
         'Mette il testo sulla casella di testo nella frmNota
